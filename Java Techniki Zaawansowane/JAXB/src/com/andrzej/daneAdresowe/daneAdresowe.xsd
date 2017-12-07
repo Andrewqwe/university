@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="daneAdresowe" type="daneAdresoweType"/>
+  <xs:complexType name="daneAdresoweType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="imie"/>
+      <xs:element type="xs:string" name="nazwisko"/>
+      <xs:element type="xs:string" name="miasto"/>
+      <xs:element type="xs:string" name="adres"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
